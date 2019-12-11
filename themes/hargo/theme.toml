@@ -9,7 +9,7 @@ homepage = "https://gethugothemes.com/"
 tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "disqus", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher"]
 features = ["Ecommerce", "responsive", "bootstrap-4"]
 # min_version = "0.58.0"
-min_version = "0.54.0"
+min_version = "0.61.0"
 [author]
   name = "Themefisher"
   homepage = "https://themefisher.com"
