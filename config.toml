@@ -1,0 +1,6 @@
+baseURL = "https://arazam.github.io/"
+languageCode = "en-us"
+title = "Klean Air"
+theme = "hargo"
+#theme = "Hargo-hugo-ecommerce-theme-master"
+
