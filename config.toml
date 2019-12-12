@@ -1,4 +1,4 @@
-baseURL = "https://arazam.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Klean Air"
 theme = "hargo"
