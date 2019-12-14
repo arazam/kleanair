@@ -67,13 +67,32 @@
 {{ partial "cta.html" . }}
 {{ end }}
 
+<!-- material1 -->
+{{ if .Site.Data.homepage.material1.enable }}
+{{ with .Site.Data.homepage.material1 }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .subtitle | markdownify }}</p>
+      </div>
+    </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /material -->
+
+
+
 <!-- material -->
 {{ if .Site.Data.homepage.material.enable }}
 {{ with .Site.Data.homepage.material }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 mx-auto text-center">
+      <div class="col-lg-8 mx-auto text-center">
         <h2>{{ .title | markdownify }}</h2>
         <p>{{ .subtitle | markdownify }}</p>
       </div>

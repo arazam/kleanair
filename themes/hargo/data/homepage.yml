@@ -30,10 +30,10 @@ Our AIM is to remove odor and not to fragrance
 cta:
   enable : true
   title : "Working of kleanair very simple "
-  title1 : "Contact > Adsorption > Absorption"
-  content : " > Contact - Kleanair is fed into polluted by odors and attracts odor molecules." 
-  content1 : " > Adsorption - Kleanair get attaches to odor molecules."
-  content2 : " > Absorption - Kleanair neutralizes the smell by surrounding odor molecules."
+  title1 : "Contact - Adsorption - Absorption"
+  content : "Contact - Kleanair is fed into polluted by odors and attracts odor molecules." 
+  content1 : "Adsorption - Kleanair get attaches to odor molecules."
+  content2 : "Absorption - Kleanair neutralizes the smell by surrounding odor molecules."
   
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
@@ -42,11 +42,17 @@ cta:
     link : "products"
 
 ######################## raw material #######################
-material:
+material1:
   enable : true
   title : "Odor Solutions"
   subtitle : "Odor eliminating products and equipment For virtually every odor, every industry, every factory or facility, kleanair odor removing solution.
    Based on the environment and odor type, kleanair is available as water-based or as additive formulas."
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Implementation Methodologies "
+  subtitle : ""
   materialItem:
     # material item loop
     - title : "Vaporization"
@@ -71,7 +77,7 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Industries we serve (outline the listing)"
+  title : "Industries we serve"
   subtitle : "For virtually every odor, every industry, every factory or facility, kleanair has odor removing solution. Based on the environment and odor type, kleanair is available as water-based or as additive formulas"
   image : "images/advantage.png"
   advantageList:
@@ -94,8 +100,7 @@ advantage:
 video:
   enable : true
   title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  content : "Klean Air Systems for virtually every odor, every industry, every factory or facility, kleanair has odor removing solution. Based on the environment and odor type, kleanair is available as water-based or as additive formulas."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
