@@ -63,9 +63,9 @@ material:
       content : "Vaporization - used for airborne odor treatment in small or large spaces"
       
     # material item loop
-    - title : "AtKleanair zation"
+    - title : "Atomization"
       image : "images/material/material-2.png"
-      content : "AtKleanair zation - Diluted with potable water used to treat airborne odors at landfills, water treatment plants or manufacturing facilities"
+      content : "Atomization - Diluted with potable water used to treat airborne odors at landfills, water treatment plants or manufacturing facilities"
       
     # material item loop
     - title : "Add Kleanair"
