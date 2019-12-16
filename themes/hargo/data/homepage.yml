@@ -18,8 +18,11 @@ banner:
 about:
   enable : true
   title : "About Our Product"
-  content : "It’s		Natural 	Effective 	Safe. 
-Kleanair has solution for any industry that produces bad odors. Because every facility and each odor problem is unique, 
+  advantageList:
+    - listItem : "It’s Natural"
+    - listItem : "Effective"
+    - listItem : "Safe"
+  content :  "Kleanair has solution for any industry that produces bad odors. Because every facility and each odor problem is unique, 
 We at kleanair design and build custom solutions for each of our requirement. We are not just another company which covers only few markets
 Our AIM is to remove odor and not to fragrance 
 "
@@ -79,7 +82,7 @@ advantage:
   enable : true
   title : "Industries we serve"
   subtitle : "For virtually every odor, every industry, every factory or facility, kleanair has odor removing solution. Based on the environment and odor type, kleanair is available as water-based or as additive formulas"
-  image : "images/advantage.png"
+  image : "images/advantage.gif"
   advantageList:
     # advantage list loop
     - listItem : "Pharmaceuticals"
