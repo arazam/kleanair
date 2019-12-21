@@ -1,17 +1,17 @@
 ---
-title: "Taba Cream"
+title: "Taba Cream 2"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
 # meta description
-description : "For Glowing Skin"
+description : "For Glowing Skin 2"
 
 # product Price
 price: "20.00$"
 priceBefore: "25.00$"
 
 # Product Short Description
-shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+shortDescription: "2Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 #product ID
 productID: "2"
