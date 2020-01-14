@@ -9,10 +9,10 @@ banner:
     enable : true
     label : "All Products"
     link : "products"
-  # demo video
+  # demo video https://www.youtube.com/embed/wf4F2-9UXUo
   video:
     enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+    videoURL : ""
 
 ########################## About ##############################
 about:
@@ -105,8 +105,8 @@ video:
   title : "How To Use This Product?"
   content : "Klean Air Systems for virtually every odor, every industry, every factory or facility, kleanair has odor removing solution. Based on the environment and odor type, kleanair is available as water-based or as additive formulas."
   videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
-
+  videoURL : ""
+# https://www.youtube.com/embed/wf4F2-9UXUo 
 
 ######################## Products #############################
 products:

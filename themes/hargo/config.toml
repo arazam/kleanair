@@ -97,10 +97,10 @@ mapMarker = "images/marker.png"
 googleAnalitycsID = "Your ID"
 # Contact Information
 mobile = "0123456789"
-email = "info@email.com"
-location = "India, Banglore"
+email = "info@kleanairglobal.com"
+location = "Banglore, India"
 # copyright
-copyright = "| @2019 [KleanAir](https://kleanair.com) All Rights Reserved |"
+copyright = "| @2019 [Klean Air](https://kleanairglobal.com) All Rights Reserved |"
 
   # Preloader
   [params.preloader]
@@ -117,7 +117,7 @@ copyright = "| @2019 [KleanAir](https://kleanair.com) All Rights Reserved |"
   # Social Site
   [[params.social]]
   icon = "ti-facebook"
-  link = "https://www.facebook.com/pg/Globetechnologies-401202460278396"
+  link = "#"
   
   [[params.social]]
   icon = "ti-twitter-alt"

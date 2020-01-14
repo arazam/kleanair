@@ -3,8 +3,14 @@ contact:
   enable : true
   # office
   office:
-    title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    title : "U.A.E"
+    content : "Klean Air Systems"
+    contenta : "Sharjah-UAE."
+    mob : "01234567890"
+    title1 : "INDIA"
+    content1 : "Klean Air Enviro Systems"
+    content1a : "Kamaraja Road, Bangalore."
+
     # other information comes from "config.toml"
 
   # opennig hour
@@ -21,4 +27,4 @@ contact:
 
 ####################### google map ########################
 map:
-  enable: true
+  enable: false

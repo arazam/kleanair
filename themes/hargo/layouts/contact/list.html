@@ -6,10 +6,17 @@
 <section class="section pt-0">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-6 col-sm-6">
         {{ with .Site.Data.contact.contact.office }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
-        <p>{{ .content | markdownify }}</p>
+        <p><strong>{{ .content | markdownify }}</strong></p>
+        <p>{{ .contenta | markdownify }}</p>
+        <p class="mb-3"><a class="text-color" href="tel:{{ .Site.Params.mobile }}"><i
+          class="ti-mobile text-primary mr-2"></i>
+       {{ .mob }}</a></p>
+        <h3 class="mb-4">{{ .title1 | markdownify }}</h3>
+        <p><strong> {{ .content1 | markdownify }} </strong></p>
+        <p>{{ .content1a | markdownify }}</p>
         {{ end }}
 
         <ul class="list-unstyled">
@@ -22,7 +29,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-3 offset-lg-1 col-sm-6">
+    <!--  <div class="col-lg-3 offset-lg-1 col-sm-6">
         {{ with .Site.Data.contact.contact.opennigHour }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
         <ul class="list-unstyled">
@@ -31,10 +38,9 @@
           {{ end }}
         </ul>
         {{ end }}
-      </div>
-      <div class="col-lg-4">
-        <h3 class="
-        mb-4">Contact us</h3>
+      </div> -->
+      <div class="col-lg-6">
+        <h3 class="mb-4">Contact Us</h3>
         <form action="{{ .Site.Params.contact.formAction }}" method="POST">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">
